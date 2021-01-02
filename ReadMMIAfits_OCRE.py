@@ -24,6 +24,8 @@ from astropy.coordinates import get_sun,get_moon
 import scipy.signal as sig
 import pyproj
 from sgp4.earth_gravity import wgs84
+# RCJ Note: Please redirect to your own share folder. A problem with the latest pyproj update has made it invisible for some reason
+# A manual redirection appears to fix it, like shown below.
 os.environ['PROJ_LIB'] = r'C:\Users\rasse\Anaconda3\pkgs\proj-7.2.0-h3e70539_0\Library\share'
 from mpl_toolkits.basemap import Basemap
 import time as ti
