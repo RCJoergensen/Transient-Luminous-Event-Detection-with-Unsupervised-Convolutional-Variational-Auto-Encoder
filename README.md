@@ -7,4 +7,4 @@ are used for loading the raw fits files provided by ASIM, and reading them, resp
 Please be aware of local paths, such as where to load the files, and where to save figures.
 Additionally, be aware of possible problems with ReadMMIAfits_OCRE.py, as described in the notebook. 
 
-The raw data files are NOT included in this repository, as they are not publicly available as of now.
+The raw data files are not included in this repository, as they are not publicly available as of now.
